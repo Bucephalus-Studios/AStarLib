@@ -71,7 +71,7 @@ namespace PathfindingLib
     }
 
     /**
-     * @brief Helper function to convert coordinate tuple to string for hashing
+     * @brief Helper function to convert coordinate tuple to std::string for hashing
      * @deprecated Use CoordHash struct instead for better performance
      */
     template<typename CoordType>

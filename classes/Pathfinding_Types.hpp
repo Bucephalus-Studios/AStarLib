@@ -9,7 +9,7 @@ namespace PathfindingLib
 {
     /**
      * @brief Hash function for tuple coordinates
-     * This is much more efficient than converting to string
+     * This is much more efficient than converting to std::string
      */
     template<typename CoordType>
     struct CoordHash
